@@ -1,0 +1,16 @@
+
+
+zu dem Leave-One-Out:
+
+http://weka.8497.n7.nabble.com/SVM-with-Leave-One-Out-td30368.html
+
+" When 
+you want to run a LOO CV, simply set the number of folds for the 
+cross-validation to be the same as the number of instances in the dataset. 
+"
+
+Validierungs menge (moodle :))
+
+"Der Filter StratifiedRemoveFolds hat einen Parameter fold mit dem du den Teil des Datensatzes auswahlen kannst. 
+Dann kannst du den so gewahlten 2. Teil, die Validierungsmenge, 
+speichern und beim Klassifizieren mit supplied test set so auswahlen wie geplant. So bin jedenfalls ich vorgegangen."
